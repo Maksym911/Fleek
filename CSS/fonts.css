@@ -1,0 +1,28 @@
+/* використання шрифтів */
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+span {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* підключення локальних шрифтів */
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/Nunito_Sans/NunitoSans-Bold.ttf') format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/Nunito_Sans/NunitoSans-Light.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
