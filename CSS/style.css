@@ -540,7 +540,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding-left: 60px; 
 }
 
 /* .the-full-suite:hover {
