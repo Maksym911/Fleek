@@ -267,10 +267,6 @@ body {
     border-radius: 4px;
 }
 
-.li-picture {
-    list-style: none;
-}
-
 .but-2 {
     color: #ffffff;
     font-size: 18px;
@@ -378,21 +374,6 @@ body {
 .logo {
     width: 127px;
     height: 56px;
-}
-
-.the-full-suite {
-    background-image: url(../img/Group-2508.png);
-    background-position: center;
-    height: 100px;
-    width: 82px;
-    margin: 20px 16px;
-}
-
-.the-full-suite:hover {
-    height: 120px;
-    width: 102px;
-    background-repeat: no-repeat;
-    margin: 0 16px;
 }
 
 .storage1 {
@@ -534,9 +515,102 @@ body {
     justify-content: center;
     margin-top: 200px;
     margin-bottom: 100px;
+    justify-content: space-around;
 }
 
 .suite-of-tools-box {
     width: 432px;
 }
 
+.img-full-suite-of-tools {
+    display: flex;
+}
+
+.the-full-suite {
+    background-image: url(../img/Group-2508.png);
+    background-position: center;
+    height: 100px;
+    width: 82px;
+    margin: 5px;
+    /* border: 2px solid transparent; */
+
+}
+
+.li-picture {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+/* .the-full-suite:hover {
+    height: 120px;
+    width: 102px;
+    background-repeat: no-repeat;
+    margin: 0 16px;
+} */
+
+.the-full-suite-2 {
+    background-image: url(../img/Group-2511.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-1 {
+    background-image: url(../img/Group-2504.png);
+    background-position: center;
+    height: 115px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-3 {
+    background-image: url(../img/Group-2509.png);
+    background-position: center;
+    height: 100px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-4 {
+    background-image: url(../img/Group-2512.png);
+    background-position: center;
+    height: 100px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-5 {
+    background-image: url(../img/akash-1.png);
+    background-position: center;
+    height: 115px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-6 {
+    background-image: url(../img/Group-2510.png);
+    background-position: center;
+    height: 100px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-7 {
+    background-image: url(../img/Group-2514.png);
+    background-position: center;
+    height: 100px;
+    width: 82px;
+    margin: 5px;
+}
+
+.the-full-suite-8 {
+    background-image: url(../img/fleek-network.png);
+    background-position: center;
+    height: 115px;
+    width: 83px;
+    margin: 5px;
+}
