@@ -261,10 +261,14 @@ body {
     font-size: 18px;
     text-align: center;
     background-color: #007aff;
-    /* width: 130px;
-    height: 24px; */
-    max-width: 25%;
+    /* max-width: 25%; */
     border-radius: 4px;
+}
+
+.blue-storage {
+    margin-top: 0;
+    display: inline;
+    padding: 4px 22px;
 }
 
 .but-2 {
@@ -277,9 +281,7 @@ body {
     border-color: rgba(0,0,0,0)
     border-width: 0px;
     text-align: center;
-    width: 523px;
-    height: 57px;
-    padding: 12px 37px;
+    padding: 18px 40px;
 }
 
 .dep {
@@ -613,4 +615,38 @@ body {
     height: 115px;
     width: 83px;
     margin: 5px;
+}
+
+.use-fleek-to-upload {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around; */
+}
+
+.use-fleek-to-upload-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.use-fleek-to-upload-img-shadow {
+    box-shadow: 0px 0px 18px 0px rgb(0 0 0 / 14%);
+    margin-bottom: 26px;
+}
+
+.use-fleek-to-upload-text {
+    margin-right: 22px;
+}
+
+.use-fleek-text {
+    margin-right: 52px;
+    margin-bottom: 36px;
+}
+
+.use-fleek-text-h2 {
+    text-align: left;
+    margin-top: 18px;
 }
