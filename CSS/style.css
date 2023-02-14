@@ -677,8 +677,10 @@ body {
     /* justify-content: center; */
     justify-content: space-around;
     padding-left: 0;
+    gap:10px;
 }
 
 .list-for-deploy-to li {
-    /* padding: 0 100px; */
+    width: 33%;
+    text-align: center;
 }
