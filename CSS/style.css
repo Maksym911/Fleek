@@ -271,6 +271,19 @@ body {
     padding: 4px 22px;
 }
 
+.blue-tools {
+    margin-top: 0;
+    display: inline;
+    padding: 4px 22px;
+}
+
+.blue-IPFS {
+    margin-top: 0;
+    display: inline;
+    padding: 2px 22px;
+    margin: 0 586px;
+}
+
 .but-2 {
     color: #ffffff;
     font-size: 18px;
@@ -514,18 +527,20 @@ body {
 .full-suite-of-tools {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
     margin-top: 200px;
     margin-bottom: 100px;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .suite-of-tools-box {
     width: 432px;
+    margin-left: 130px;
+    margin-top: 51px;
 }
 
 .img-full-suite-of-tools {
     display: flex;
+    padding-left: 78px;
 }
 
 .the-full-suite {
@@ -649,4 +664,21 @@ body {
 .use-fleek-text-h2 {
     text-align: left;
     margin-top: 18px;
+}
+
+.deploy-to {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.list-for-deploy-to {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.list-for-deploy-to li {
+    /* padding: 0 100px; */
 }
