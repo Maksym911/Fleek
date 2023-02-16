@@ -477,27 +477,8 @@ body {
 }
 
 .review-1 {
-    width: 90px;
-    height: 90px;
     border-radius: 90%;
-    background-image: url(../img/review-1.png);
-    background-size: contain;
-}
-
-.review-2 {
-    width: 90px;
-    height: 90px;
-    border-radius: 90%;
-    background-image: url(../img/review-2.jpeg);
-    background-size: contain;
-}
-
-.review-3 {
-    width: 90px;
-    height: 90px;
-    border-radius: 90%;
-    background-image: url(../img/review-3.jpeg);
-    background-size: contain;
+    flex-shrink: 0;
 }
 
 .review-4 {
@@ -675,19 +656,18 @@ body {
 
 .list-for-deploy-to {
     display: flex;
-    /* justify-content: space-around; */
     padding-left: 0;
     gap:70px;
 }
 
-.list-for-deploy-to > li {
-    /* width: 33%;
-    text-align: center; */
-    /* padding: 0 20px; */
+.social {
+    list-style: none;
 }
 
-.img-deploy-to {
-    /* margin: 16px 0 16px 16px; */
-    /* flex-shrink: 0; */
-    /* display: block; */
+.footertwit {
+    /* треба svg ставити */
+}
+
+.footeryoutube {
+    background: url();
 }
