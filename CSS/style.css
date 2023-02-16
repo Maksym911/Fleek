@@ -61,6 +61,7 @@ body {
 .footer-menu {
     color: #546285;
     list-style: none;
+    padding-left: 0;
 }
 
 .header-text {
@@ -357,6 +358,7 @@ body {
     font-weight: 500;
     color: #c4c4c4;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 .footer-item {
@@ -664,6 +666,25 @@ body {
     list-style: none;
 }
 
+.foo {
+    display: flex;
+    margin: 0 157px;
+    padding: 50px 0;
+}
+
+
+.footer {
+    width: 245px;
+}
+
+.logo-foo {
+    margin-right: 156px;
+}
+
+
+
+
+
 .footertwit {
     /* треба svg ставити */
 }
@@ -671,3 +692,4 @@ body {
 .footeryoutube {
     background: url();
 }
+
