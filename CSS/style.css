@@ -664,6 +664,8 @@ body {
 
 .social {
     list-style: none;
+    display: flex;
+    padding-left: 0;
 }
 
 .foo {
@@ -671,7 +673,6 @@ body {
     margin: 0 157px;
     padding: 50px 0;
 }
-
 
 .footer {
     width: 245px;
@@ -681,15 +682,18 @@ body {
     margin-right: 156px;
 }
 
-
-
-
-
-.footertwit {
-    /* треба svg ставити */
+.twitfoo {
+    background-image: url(../img/Sicons-Basic-Round-Social-Twitter.32.png);
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-right: 8px;
 }
 
-.footeryoutube {
-    background: url();
+.tubefoo {
+    background-image: url(../img/YouTube-32.png);
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 
