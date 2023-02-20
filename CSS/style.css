@@ -19,6 +19,7 @@ body {
 
 .main-menu {
     list-style: none;
+    display: flex;
 }
 
 .link-main-menu {
@@ -33,10 +34,14 @@ body {
 
 .header {
     background-color: #000000;
+    display: flex;
+    align-items: center;
+
 }
 
 .main-menu a {
     text-decoration: none;
+    padding-right: 20px;
 }
 
 .h1{
