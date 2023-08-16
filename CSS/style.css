@@ -301,7 +301,7 @@ body {
     background-color: #000000;
     text-decoration: none;
     border-radius: 6px;
-    border-color: rgba(0,0,0,0)
+    border-color: rgba(0,0,0,0);
     border-width: 0px;
     text-align: center;
     padding: 18px 40px;
@@ -334,6 +334,7 @@ body {
     width: 146px;
     height: 42px;
     padding-top: 7px;
+    transition: all .25s ease-in 0s;
 }
 
 .sup-a:hover {
@@ -352,6 +353,7 @@ body {
     width: 146px;
     height: 42px;
     padding-top: 3px;
+    transition: all .25s ease-in 0s;
 }
 
 .sup-b:hover {
@@ -540,7 +542,7 @@ body {
     height: 100px;
     width: 82px;
     margin: 5px;
-    /* border: 2px solid transparent; */
+    transition: all .25s ease-in 0s;
 
 }
 
@@ -551,12 +553,41 @@ body {
     padding-left: 60px; 
 }
 
-/* .the-full-suite:hover {
-    height: 120px;
-    width: 102px;
-    background-repeat: no-repeat;
-    margin: 0 16px;
-} */
+.the-full-suite:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-1:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-2:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-3:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-4:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-5:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-6:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-7:hover {
+    transform: scale(1.1);
+}
+
+.the-full-suite-8:hover {
+    transform: scale(1.1);
+}
 
 .the-full-suite-2 {
     background-image: url(../img/Group-2511.png);
@@ -565,6 +596,7 @@ body {
     height: 100px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-1 {
@@ -573,6 +605,7 @@ body {
     height: 115px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-3 {
@@ -581,6 +614,7 @@ body {
     height: 100px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-4 {
@@ -589,6 +623,7 @@ body {
     height: 100px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-5 {
@@ -597,6 +632,7 @@ body {
     height: 115px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-6 {
@@ -605,6 +641,7 @@ body {
     height: 100px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-7 {
@@ -613,6 +650,7 @@ body {
     height: 100px;
     width: 82px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .the-full-suite-8 {
@@ -621,6 +659,7 @@ body {
     height: 115px;
     width: 83px;
     margin: 5px;
+    transition: all .25s ease-in 0s;
 }
 
 .use-fleek-to-upload {
@@ -629,7 +668,7 @@ body {
     background-color: #f9f9f9;
     padding: 100px;
     margin-bottom: 100px;
-    justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .use-fleek-to-upload-img {
